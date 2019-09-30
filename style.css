@@ -1,0 +1,44 @@
+h1{ 
+    font-style: italic;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color : rgb(37, 3, 37);
+}
+div{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: right;
+}
+h2,h3,h4{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.imageflottante{
+    float: left;
+    margin: 11px;
+}
+.dates{
+    font-weight: bold;
+    margin: 4%;
+}
+#nav{
+    padding: 0% 30px; margin: 5%;
+    border-style: double;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px black;
+    background-color: aqua;
+}
+#nav li{
+    display: inline;
+    list-style-position: outside;
+    padding-left: 40px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(30-303825_more-png-download-png-format-holi-png-effect.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
