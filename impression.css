@@ -1,0 +1,14 @@
+body{
+    background-color: #fff;
+    font-family: serif;
+    font-size: 15px;
+}
+.imageflottante{
+    display: none;
+}
+h1{
+    text-align: center;
+}
+.intitule{
+    text-align: right;
+}
