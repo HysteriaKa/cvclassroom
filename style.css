@@ -101,6 +101,7 @@ body {
     padding: 0;
     background-color: rgb(82, 82, 104);
     color: #ffffff;
+    width: 100%;
 }
 /*placement image de chaque bloc*/
 .imageflottante {
@@ -149,8 +150,9 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
 /*lecture cv sur écran plus petits*/
-@media screen and (max-width: 640px) {
+@media screen and (max-width:1200px){
     .bloc {
         display: block;
         clear: both;
@@ -158,7 +160,7 @@ ul {
 
     header {
         width: 99%;
-        flex-wrap: nowrap;
+        
         padding: 0;
         margin: 0;
     }
@@ -170,7 +172,6 @@ ul {
     }
     #nav {
         flex-wrap: nowrap;
-        margin: 5%;
         justify-content: right;
         padding: 0%;
         margin: 0;
@@ -198,4 +199,20 @@ ul {
         margin-top: 10px;
 
     }
+}
+
+@media screen and (max-width:900px){
+    
+    
+    h2{
+        font-size: 0.9em;
+        
+    }
+    body{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    
 }
