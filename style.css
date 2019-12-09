@@ -1,4 +1,4 @@
-/* apparence et mise en page titre principal*/
+/* css crée au bout de 2 semaines de formation pas DRY du tout*/
 h1 {
     font-style: italic;
     font-size: 40px;
@@ -59,7 +59,10 @@ header {
     margin: 0.5em;
     text-align: center;
     font-style: italic;
-
+    margin-left: auto;
+    margin-right: auto;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 /* placement de la photo d'identité dans le header*/
 .photoid {
